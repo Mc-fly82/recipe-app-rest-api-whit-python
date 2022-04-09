@@ -14,8 +14,6 @@ WORKDIR /app
 
 COPY ./app /app
 
-RUN cd ..
-
 
 RUN adduser -D user
 
